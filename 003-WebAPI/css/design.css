@@ -1,0 +1,13 @@
+﻿body {
+	text-align: center;
+}
+
+#AppointmentsTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#AppointmentTypesTable {
+	margin-left: auto;
+	margin-right: auto;
+}
