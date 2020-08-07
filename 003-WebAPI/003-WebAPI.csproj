@@ -173,7 +173,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\AttributeRoutingHttpConfig.cs" />
     <Compile Include="App_Start\SimpleInjectorDependencyResolver.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AllDataApiController.cs" />
@@ -193,10 +192,6 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="scripts\appointment_types.js" />
-    <Content Include="scripts\esm\popper-utils.js" />
-    <Content Include="scripts\esm\popper-utils.min.js" />
-    <Content Include="scripts\esm\popper.js" />
-    <Content Include="scripts\esm\popper.min.js" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\model\appointment_importance_model.js" />
     <Content Include="scripts\model\appointment_model.js" />
@@ -207,10 +202,6 @@
     <Content Include="scripts\networking\appointment_type_networking.js" />
     <Content Include="scripts\appointments.js" />
     <Content Include="scripts\networking\links.js" />
-    <Content Include="scripts\popper-utils.js" />
-    <Content Include="scripts\popper-utils.min.js" />
-    <Content Include="scripts\popper.js" />
-    <Content Include="scripts\popper.min.js" />
     <Content Include="scripts\src\index.js" />
     <Content Include="scripts\src\methods\defaults.js" />
     <Content Include="scripts\src\methods\destroy.js" />
@@ -274,10 +265,6 @@
     <Content Include="scripts\src\utils\setAttributes.js" />
     <Content Include="scripts\src\utils\setStyles.js" />
     <Content Include="scripts\src\utils\setupEventListeners.js" />
-    <Content Include="scripts\umd\popper-utils.js" />
-    <Content Include="scripts\umd\popper-utils.min.js" />
-    <Content Include="scripts\umd\popper.js" />
-    <Content Include="scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -288,21 +275,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="scripts\umd\popper.min.js.map" />
-    <Content Include="scripts\umd\popper.js.map" />
-    <Content Include="scripts\umd\popper.js.flow" />
-    <Content Include="scripts\umd\popper-utils.min.js.map" />
-    <Content Include="scripts\umd\popper-utils.js.map" />
-    <Content Include="scripts\README.md" />
-    <Content Include="scripts\popper.min.js.map" />
-    <Content Include="scripts\popper.js.map" />
-    <Content Include="scripts\popper-utils.min.js.map" />
-    <Content Include="scripts\popper-utils.js.map" />
-    <Content Include="scripts\index.js.flow" />
-    <Content Include="scripts\esm\popper.min.js.map" />
-    <Content Include="scripts\esm\popper.js.map" />
-    <Content Include="scripts\esm\popper-utils.min.js.map" />
-    <Content Include="scripts\esm\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\001-DataAccessLayer\001-DataAccessLayer.csproj">
@@ -316,9 +288,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="scripts\index.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
